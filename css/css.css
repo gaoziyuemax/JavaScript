@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#map{
+    border:1px solid black;
+    width: 880px;
+    height: 660px;
+    margin: 10px auto;
+    background-color: blue;
+}
+#sele{
+    text-align: center;
+    height: 40px;
+    width: 1000px;
+    margin: -10px auto;
+    background-color: lavender;
+}
+#sele span,#sele i{
+    height:30px;
+    font-weight:bold;
+    line-height:30px;
+    font-size:20px;
+    font-style:normal;
+    text-align:center;
+    padding:0px 0px 0px 10px;
+}
+#sele input{
+    display: inline-block;
+    font-weight:bold;
+    height:30px;
+    font-size:18px;
+    margin:0px 0px 0px 20px;
+}
+#sele i{padding-left:0px;color:pink;}
+#sele span:last-of-type{color:yellow;}
+#sele input[type=checkbox]{
+    position: relative;
+    top:8px;
+    left:-5px;
+}
+#sele select{
+    color:blue;
+    font-weight:bold;
+    height:30px;
+    font-size:18px;
+}
+#map::after{
+    content:'';
+    display:block;
+    clear:both;
+    overflow:hidden;
+}
+#map div{
+    float:left;
+    width:20px;
+    height:20px;
+    font-size:0px;
+    border:1px solid #dddddd;
+    border-radius:50%;
+}
